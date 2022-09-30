@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-date() {
-    today=`date +%m-%Y`
-    echo $today
-}
+date=`date +%m-%d-%y`
+time=`date +%r`
 
-date
+echo $date $time
