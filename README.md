@@ -1,5 +1,7 @@
 # Individual Project 2 (Data Engineering Systems)
 
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/112578065/193360969-e376ebfa-fb50-481a-a18e-6d7c38964ca3.png">
+
 ## Docker build process
 
 * build `docker build .`
