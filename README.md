@@ -2,27 +2,12 @@
 
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/112578065/193360969-e376ebfa-fb50-481a-a18e-6d7c38964ca3.png">
 
-## Docker build process
+## Objective
+This project is to build a Bash command-line tool that fits within the key concept of CI/CD as an data engineering project. For that purpose, this tool tries to connect itself with another application which is a telegram chatbot. Then, the tool is going to be pushed to DockerHub as a Docker image and to be run on AWS Cloud9 & ECR as well.
 
-* build `docker build .`
-* list `docker image ls`
-* run with your image id
-
-### Push to DockerHub
-
-* Create docker account, then access token, then place token in GitHub Secrets as DOCKER_HUB
-* docker login: `docker login -u <hub-user -p $DOCKER_HUB`
-* build and tag locally: `docker build . -t <hub-user>/<repo-name>`
-* docker push 
-* Verify you can run it by pulling from Docker Hub:  https://hub.docker.com/r/noahgift/tiny-container-demo/tags
-* docker run -it <hub-user>/<repo-name>:latest /bin/bash repeat.sh 4 hello
-
-Example would be:
-`docker run -it noahgift/tiny-container-demo:latest /bin/bash repeat.sh 4 hello`
-
-### Run in Cloud9
-
-* run locally:  `docker run -it noahgift/tiny-container-demo:latest /bin/bash repeat.sh 4 hello`
-* retag and push:  
-Example (replace with your info): `docker push 561744971673.dkr.ecr.us-east-1.amazonaws.com/awscli:tiny`
-* verify it runs in a new cloud9 instance: `docker run -it 561744971673.dkr.ecr.us-east-1.amazonaws.com/awscli:tiny /bin/bash repeat.sh 4 hello`
+## Contents
+1. Make Bash command-line tool
+2. Docker build process
+3. Push to DockerHub
+4. Run in Cloud9
+5. Save the image in ECR
