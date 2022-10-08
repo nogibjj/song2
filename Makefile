@@ -5,7 +5,5 @@ install:
 test:
 	./test.sh
 
-format:
-	black *.py
 
 all: install test
