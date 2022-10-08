@@ -3,13 +3,9 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv test_*.py
+	./test.sh
 
 format:
 	black *.py
 
-
-lint:
-	pylint --disable=R,C nfl.py
-
-all: install lint test
+all: install test
