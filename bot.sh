@@ -16,5 +16,5 @@ curl -s -d "chat_id=${ID}&text=${TEXT}" ${URL} > /dev/null
 
 # Telegram Bot Information
 ID="5551671825"
-API_TOKEN="5675712941:AAHxNBva2DvqKzS2FOIsBv7LMzfupoBTnaY"
+API_TOKEN="5741127105:AAGFW-7oTqftW2pZXjmUkAWc4yV8i-Zr7sc"
 URL="https://api.telegram.org/bot${API_TOKEN}/sendMessage"
