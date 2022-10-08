@@ -1,0 +1,15 @@
+name: Bash application test with Github Actions
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    # Runs a single command using the runners shell
+    - name: Run make install
+      run: make install
+      
+    # Runs a single command using the runners shell
+    - name: Run make test
+      run: make test
