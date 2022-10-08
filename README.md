@@ -11,3 +11,5 @@ This project is to build a Bash command-line tool that fits within the key conce
 3. Push to DockerHub
 4. Run in Cloud9
 5. Save the image in ECR
+
+#### Note: In the bash file, a few credentials including API token were left as blank for security concerns.
