@@ -4,3 +4,4 @@ click
 black
 pytest-cov
 pandas
+curl
