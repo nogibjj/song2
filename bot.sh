@@ -22,3 +22,4 @@ DATE="$(date "+%Y-%m-%d")"
 # Messages
 TEXT="${DATE} [$1] $2"
 
+curl -s -d "chat_id=${ID}&text=${TEXT}" ${URL} > /dev/null
