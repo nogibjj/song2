@@ -1,5 +1,7 @@
 # Individual Project 2 (Data Engineering Systems)
 
+[![Bash application test with Github Actions](https://github.com/nogibjj/song2/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/song2/actions/workflows/main.yml)
+
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/112578065/193360969-e376ebfa-fb50-481a-a18e-6d7c38964ca3.png">
 
 ## Objective
